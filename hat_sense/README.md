@@ -30,7 +30,7 @@ The use of the Sense-Hat requires enabling I2C. This can be done:
 - from the command line:
 
 ```
-sudo raspi-config nonint do_i2c
+sudo raspi-config nonint do_i2c 0
 ```
 
 - via the `Advanced Options` of `sudo raspi-config`.

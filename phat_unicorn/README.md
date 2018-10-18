@@ -29,4 +29,6 @@ To do so, please ensure the following is setup in `/boot/config.txt`:
 hdmi_force_hotplug=1
 ```
 
-With the PiZero that translates into installing Jessie Lite instead of Jessie (it seems to do the trick).
+With the PiZero that translates into installing Jessie Lite instead of Jessie (it seems to do the trick, probably because sound drivers are not loaded).
+
+*** NEEDS ROOT TO EXECUTE (due to the access to /dev/mem) ***
